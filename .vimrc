@@ -1,4 +1,11 @@
+set ttyfast
+set mouse=a
+set ttymouse=xterm2
 set number
 set wrap
 set cursorline
 set cursorcolumn
+call plug#begin('~/.vim/plugged')
+"""""Plug 'davidhalter/jedi-vim'
+Plug 'klen/python-mode'
+call plug#end()
